@@ -10,7 +10,8 @@ curl "http://localhost:4741/directors" \
       "first_name": "'"${FIRST}"'",
       "last_name": "'"${LAST}"'",
       "born_on": "'"${BORN}"'",
-      "famous_movies": "'"${MOVIES}"'"
+      "famous_movies": "'"${MOVIES}"'",
+      "user_id": "'"${ID}"'"
     }
   }'
 

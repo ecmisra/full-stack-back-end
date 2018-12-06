@@ -1,4 +1,4 @@
-class DirectorsController < ApplicationController
+class DirectorsController < OpenReadController
   before_action :set_director, only: [:show, :update, :destroy]
 
   # GET /directors
@@ -46,6 +46,10 @@ class DirectorsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def director_params
-      params.require(:director).permit(:first_name, :last_name, :born_on, :famous_movies)
+      params.require(:director).permit(:first_name,
+                                       :last_name,
+                                       :born_on,
+                                       :famous_movies,
+                                       :user_id)
     end
 end
