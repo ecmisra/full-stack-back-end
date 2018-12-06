@@ -17,6 +17,8 @@ class DirectorsController < OpenReadController
   def create
     @director = Director.new(director_params)
 
+    # @director = current_user.directors.build(director_params)
+
     if @director.save
       render json: @director, status: :created, location: @director
     else
