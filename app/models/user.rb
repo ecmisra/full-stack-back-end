@@ -2,5 +2,5 @@
 
 class User < ApplicationRecord
   include Authentication
-  has_many :examples#, :directors
+  has_many :directors
 end
