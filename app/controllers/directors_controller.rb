@@ -3,7 +3,7 @@ class DirectorsController < OpenReadController
 
   # GET /directors
   def index
-    @directors = Director.all
+    @directors = Director.all.order(id: :asc)
 
     render json: @directors
   end
