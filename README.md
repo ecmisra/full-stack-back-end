@@ -8,9 +8,9 @@ This was my second project at GA, and the first time building both a back-end ap
 
 My idea for the project was to build an IMDb of sorts; allow users to look up information about film directors, and also be able to add/edit/delete directors of their own (once signed in).
 
-[Front-End Repo](https://github.com/ecmisra/full-stack-front-end-client)
-[Deployed Heroku Back-End](https://directors-back-end.herokuapp.com/)
-[Deployed Client Front-End](https://ecmisra.github.io/full-stack-front-end-client/)
+* [Front-End Repo](https://github.com/ecmisra/full-stack-front-end-client)
+* [Deployed Heroku Back-End](https://directors-back-end.herokuapp.com/)
+* [Deployed Client Front-End](https://ecmisra.github.io/full-stack-front-end-client/)
 
 
 ### Technologies Used
