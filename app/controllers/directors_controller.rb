@@ -38,6 +38,7 @@ class DirectorsController < OpenReadController
   # DELETE /directors/1
   def destroy
     @director.destroy
+    head :no_content
   end
 
   private
